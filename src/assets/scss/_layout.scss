@@ -1,0 +1,53 @@
+/*Main Lyaout Start*/
+#main-layout .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#main-layout .trigger:hover {
+  color: rgb(8 47 73);
+}
+
+#main-layout .logo {
+  height: 32px;
+  text-align: center;
+  margin: 16px;
+}
+#main-layout .ant-layout {
+  background: #f1f5f9 !important;
+}
+#main-layout .ant-layout-header {
+  background: #ffffff !important;
+}
+#content-full {
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main Lyaout End*/
+/*Sidebar Lyaout start*/
+.sidebar {
+  // overflow: auto;
+  // height: 100vh;
+  // position: fixed;
+  // left: 0;
+  // top: 0;
+  // bottom: 0;
+  //min-width: 250px !important;
+  //max-width: 250px !important;
+  //width: 250px !important;
+  .admin-icon {
+    border-radius: 50%;
+    border: 4px solid #e70736;
+    margin: 10px 0;
+  }
+}
+.site-layout > .content-area {
+  margin-left: 250px !important;
+}
+/*Sidebar Lyaout End*/

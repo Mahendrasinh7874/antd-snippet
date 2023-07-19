@@ -1,0 +1,83 @@
+.top-card .ant-card-body {
+  min-height: 100px !important;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.05) !important;
+}
+.top-card .ant-card-head {
+  background: #162038 !important;
+  border-radius: 5px 5px 0px 0px !important;
+  color: white !important;
+  text-align: center !important;
+}
+.center-card .ant-card-body {
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.05) !important;
+}
+
+.table-row {
+  .ant-table-cell {
+    padding: 11px 0 !important;
+  }
+}
+
+// .fragment{
+.ant-list-item {
+  padding: 0 !important;
+  padding-bottom: 12px !important;
+}
+.ant-list-item-meta-avatar {
+  margin: auto;
+}
+.ant-avatar-circle {
+  margin-top: 10px;
+}
+.modal-Winner {
+  .ant-modal-close {
+    display: none;
+  }
+}
+.detail-page {
+  padding: 0 10px;
+  .ant-descriptions-item-label {
+    width: 450px;
+    font-size: 16px;
+  }
+  .ant-descriptions-item-content {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.trasperent {
+  .ant-form-item {
+    color: transparent;
+  }
+}
+
+.block {
+  .ant-modal-close {
+    display: block;
+  }
+}
+
+.center-card {
+  .ant-select-tree-checkbox-inner {
+    display: none !important;
+  }
+}
+
+.hidden-label {
+  .ant-form-item-label {
+    opacity: 0;
+  }
+}
+
+.ant-table-sticky-scroll {
+  display: none !important;
+}
+
+.for-height {
+  min-height: 506px !important;
+
+  .ant-card-body {
+    box-shadow: none !important;
+  }
+}
